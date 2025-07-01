@@ -1,44 +1,26 @@
-## Getting Started
+# 📱 The Menu – Mobile Web Application (Frontend)
 
-```bash
-npm install
-# then
-npm run dev
-```
+**The Menu** is a modern, mobile-first web application frontend built with **Next.js**, **Tailwind CSS**, and **TypeScript**. It is designed to provide a fast, clean, and user-friendly interface for browsing food menus, tailored specifically for mobile devices.
 
-## How to commit
+🌐 **Live Demo:** [https://themenus.netlify.app/](https://themenus.netlify.app/)
 
-Type may not be empty [type-empty]: This error indicates that the "type" of the commit is missing. The type is typically one of a few standard words that describe the category of the commit, such as:
+---
 
-## Commit with type
+## 🚀 Features
 
-- build
-- feat
-- fix
-- docs
-- style
-- refactor
-- test
-- chore
-- ci
-- perf
-- revert
-- style
+- ✅ Mobile-first responsive design
+- 🎨 Styled with Tailwind CSS for clean and modern UI
+- ⚡️ Built with Next.js for fast performance and routing
+- 🛡️ Written in TypeScript for type safety and scalability
+- 📂 Component-based architecture for reusable UI
+- 🔄 Smooth navigation and transitions
 
-```Example
-git commit -m "fix: your commit message"
-```
+---
 
-See the result on your browser [http://localhost:3000](http://localhost:3000)
+## 🛠️ Tech Stack
 
-## Say Hi
-
-[Ashiqur Rahman](https://iamashiqur.vercel.app/)
-[Linkdin](https://www.linkedin.com/in/iamashiqur/)
-[GitHub](https://github.com/iamashiqur)
-[Instagram](https://www.instagram.com/iamrahmanashiq/)
-[Facebook](https://www.facebook.com/iamrahmanashiq/)
-
-## Buy Me a Coffee ☕
-
-[BUYMEACOFFEE](https://buymeacoffee.com/iamashiqur)
+| Technology       | Description                      |
+|------------------|----------------------------------|
+| **Next.js**      | React framework for SSR & routing |
+| **Tailwind CSS** | Utility-first CSS framework       |
+| **TypeScript**   | Strongly typed JavaScript         |
