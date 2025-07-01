@@ -1,0 +1,21 @@
+export const imageGrid = [
+  { type: 'image', small: '/images/grid-1.png', large: '/images/grid-1.png', width: 200, height: 300 },
+  { type: 'image', small: '/images/grid-2.png', large: '/images/grid-2.png', width: 300, height: 300 },
+  { type: 'image', small: '/images/grid-1.png', large: '/images/grid-1.png', width: 200, height: 300 },
+  { type: 'video', small: '/media.mp4', large: '/media.mp4', width: 200, height: 300 },
+  { type: 'image', small: '/images/grid-4.png', large: '/images/grid-4.png', width: 200, height: 300 },
+  { type: 'image', small: '/images/grid-1.png', large: '/images/grid-1.png', width: 300, height: 200 },
+  { type: 'image', small: '/images/grid-2.png', large: '/images/grid-2.png', width: 200, height: 300 },
+  { type: 'image', small: '/images/grid-1.png', large: '/images/grid-1.png', width: 200, height: 300 },
+  { type: 'image', small: '/images/grid-2.png', large: '/images/grid-2.png', width: 300, height: 300 },
+  { type: 'image', small: '/images/grid-1.png', large: '/images/grid-1.png', width: 200, height: 200 },
+  { type: 'image', small: '/images/grid-4.png', large: '/images/grid-4.png', width: 300, height: 300 },
+  { type: 'image', small: '/images/grid-1.png', large: '/images/grid-1.png', width: 200, height: 200 },
+  { type: 'image', small: '/images/grid-2.png', large: '/images/grid-2.png', width: 200, height: 300 },
+  { type: 'image', small: '/images/grid-1.png', large: '/images/grid-1.png', width: 300, height: 200 },
+  { type: 'image', small: '/images/grid-2.png', large: '/images/grid-2.png', width: 300, height: 200 },
+  { type: 'image', small: '/images/grid-3.png', large: '/images/grid-3.png', width: 250, height: 300 },
+  { type: 'image', small: '/images/grid-4.png', large: '/images/grid-4.png', width: 300, height: 350 },
+  { type: 'image', small: '/images/grid-5.png', large: '/images/grid-5.png', width: 350, height: 200 },
+  { type: 'image', small: '/images/grid-2.png', large: '/images/grid-2.png', width: 200, height: 300 }
+];

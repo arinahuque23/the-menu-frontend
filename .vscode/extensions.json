@@ -1,0 +1,31 @@
+{
+  "recommendations": [
+    "csstools.postcss",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "steoates.autoimport",
+    "bracketpaircolordlw.bracket-pair-color-dlw",
+    "mikestead.dotenv",
+    "dsznajder.es7-react-js-snippets",
+    "dbaeumer.vscode-eslint",
+    "github.vscode-github-actions",
+    "eamodio.gitlens",
+    "ecmel.vscode-html-css",
+    "mohd-akram.vscode-html-format",
+    "zignd.html-css-class-completion",
+    "xabikos.javascriptsnippets",
+    "ms-vscode.vscode-typescript-next",
+    "idered.npm",
+    "christian-kohler.npm-intellisense",
+    "ionutvmi.path-autocomplete",
+    "christian-kohler.path-intellisense",
+    "csstools.postcss",
+    "esbenp.prettier-vscode",
+    "yoavbls.pretty-ts-errors",
+    "humao.rest-client",
+    "jasonnutter.search-node-modules",
+    "bradlc.vscode-tailwindcss",
+    "vscode-icons-team.vscode-icons",
+    "gamunu.vscode-yarn"
+  ]
+}

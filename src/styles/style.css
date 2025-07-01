@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'fonts.css';
+.gradient {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 59.33%);
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  overscroll-behavior-y: contain;
+}
+/* .swiper {
+  overflow: visible !important;
+} */
+.container2 {
+  max-width: 490px;
+  margin: auto;
+  padding-left: 20px;
+}
+
+/* react calender customize css */
+.react-calendar {
+  border: none !important;
+  width: 100% !important;
+}
+.react-calendar__navigation {
+  align-items: center !important;
+  height: unset !important;
+  justify-content: space-between !important;
+  margin-bottom: 12px !important;
+}
+.react-calendar__navigation__next2-button,
+.react-calendar__navigation__prev2-button {
+  display: none !important;
+}
+
+.react-calendar__navigation button {
+  min-width: auto !important;
+}
+.react-calendar__navigation__label {
+  border-radius: 8px !important;
+  background: #f8e6e7 !important;
+  flex-grow: unset !important;
+  padding: 4px 12px !important;
+  color: #b6020b !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  font-family: 'Sequel Sans Book Disp';
+}
+.react-calendar__viewContainer {
+  border-radius: 16px;
+  border: 1px solid #f5f5f5;
+  padding: 4px 8px 8px;
+}
+.react-calendar__month-view__days,
+.react-calendar__month-view__weekdays {
+  gap: 4px !important;
+}
+.react-calendar__month-view__weekdays {
+  margin-bottom: 8px !important;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  padding: 8px !important;
+  color: #120001 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  border: none !important;
+  font-family: 'Sequel Sans Book Disp' !important;
+  flex: 0 0 13.49% !important;
+}
+.react-calendar__month-view__weekdays__weekday abbr {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  cursor: default;
+}
+.react-calendar__tile {
+  border-radius: 8px !important;
+  background: #fafafa !important;
+  color: #120001 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  font-family: 'Sequel Sans Light Disp' !important;
+  flex: 0 0 13.1% !important;
+  padding: 8px !important;
+}
+.react-calendar__tile--active {
+  background: #b6020b !important;
+  color: white !important;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  background: #fdfdfd !important;
+  color: #d0cccc !important;
+}
+
+/* react multirange slider customize css */
+.multi-range-slider {
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+.multi-range-slider .ruler,
+.multi-range-slider .label {
+  display: none !important;
+}
+.multi-range-slider .thumb::before {
+  width: 12px !important;
+  height: 12px !important;
+  background-color: #b6020b !important;
+  border: none !important;
+  box-shadow: none !important;
+  margin: -4px -10px !important;
+}
+
+.multi-range-slider .bar-left,
+.multi-range-slider .bar-right,
+.multi-range-slider .bar-inner {
+  border-radius: none !important;
+  height: 4px !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+.multi-range-slider .bar-left,
+.multi-range-slider .bar-right {
+  background-color: #f8e6e7 !important;
+}
+.multi-range-slider .bar-inner {
+  background-color: #b6020b !important;
+}
+
+.multi-range-slider .thumb::after {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.multi-range-slider .caption {
+  display: block !important;
+}
+.multi-range-slider .thumb .caption * {
+  top: 40px !important;
+  height: unset !important;
+  min-width: unset !important;
+  width: unset !important;
+  background-color: transparent !important;
+  color: #716667 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  letter-spacing: 1px !important;
+  box-shadow: none !important;
+  font-family: 'Sequel Sans Book Disp' !important;
+}
+.multi-range-slider .thumb .caption .min-caption {
+  left: -14px !important;
+}
+.multi-range-slider .thumb .caption .max-caption {
+  right: -10px !important;
+}
+
+/* map customize css */
+.leaflet-top {
+  bottom: 40px !important;
+  top: unset !important;
+}
+.leaflet-left {
+  left: unset !important;
+  right: 20px !important;
+}
+.leaflet-control-zoom-in {
+  margin-bottom: 16px !important;
+}
+.leaflet-touch .leaflet-control-layers,
+.leaflet-touch .leaflet-bar {
+  border: none !important;
+}
+.leaflet-touch .leaflet-bar a:first-child,
+.leaflet-touch .leaflet-bar a:last-child {
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 8px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: white !important;
+}
+
+/* new range slider customize css */
+.rc-slider-handle {
+  border-radius: 50% !important;
+  border: none !important;
+  background: #b6020b !important;
+  width: 16px !important;
+  height: 16px !important;
+  opacity: 1 !important;
+  margin-top: -6px !important;
+}
+.rc-slider-track,
+.rc-slider-tracks {
+  background: #b6020b !important;
+}
+.rc-slider-rail {
+  background-color: #f8e6e7 !important;
+  border-radius: 16px !important;
+}
+
+.rc-slider-handle:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 37px !important;
+}
+.swiper-pagination-bullet {
+  width: 6px !important;
+  height: 6px !important;
+  background: #ffffff1f !important;
+  backdrop-filter: blur(12px) !important;
+  margin: 0 2px !important;
+  opacity: 1 !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: white !important;
+}
+
+.react-photo-album--image {
+  border-radius: 8px !important;
+}
+
+/* .scroll-container {
+  height: 100vh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+} */

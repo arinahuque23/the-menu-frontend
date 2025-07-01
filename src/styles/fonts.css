@@ -1,0 +1,250 @@
+/* font family */
+@font-face {
+  font-family: 'Sequel Sans Bold Disp';
+  src:
+    url('/fonts/SequelSans-BoldDisp.woff2') format('woff2'),
+    url('/fonts/SequelSans-BoldDisp.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sequel Sans Bold Body';
+  src:
+    url('/fonts/SequelSans-BoldBody.woff2') format('woff2'),
+    url('/fonts/SequelSans-BoldBody.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sequel Sans Black Head';
+  src:
+    url('/fonts/SequelSans-BlackHead.woff2') format('woff2'),
+    url('/fonts/SequelSans-BlackHead.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sequel Sans Black Disp';
+  src:
+    url('/fonts/SequelSans-BlackDisp.woff2') format('woff2'),
+    url('/fonts/SequelSans-BlackDisp.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sequel Sans Black Body';
+  src:
+    url('/fonts/SequelSans-BlackBody.woff2') format('woff2'),
+    url('/fonts/SequelSans-BlackBody.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sequel Sans Book Body';
+  src:
+    url('/fonts/SequelSans-BookBody.woff2') format('woff2'),
+    url('/fonts/SequelSans-BookBody.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sequel Sans Heavy Disp';
+  src:
+    url('/fonts/SequelSans-HeavyDisp.woff2') format('woff2'),
+    url('/fonts/SequelSans-HeavyDisp.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sequel Sans Book Disp';
+  src:
+    url('/fonts/SequelSans-BookDisp.woff2') format('woff2'),
+    url('/fonts/SequelSans-BookDisp.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sequel Sans Bold Head';
+  src:
+    url('/fonts/SequelSans-BoldHead.woff2') format('woff2'),
+    url('/fonts/SequelSans-BoldHead.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sequel Sans Heavy Head';
+  src:
+    url('/fonts/SequelSans-HeavyHead.woff2') format('woff2'),
+    url('/fonts/SequelSans-HeavyHead.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sequel Sans Book Head';
+  src:
+    url('/fonts/SequelSans-BookHead.woff2') format('woff2'),
+    url('/fonts/SequelSans-BookHead.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sequel Sans Heavy Body';
+  src:
+    url('/fonts/SequelSans-HeavyBody.woff2') format('woff2'),
+    url('/fonts/SequelSans-HeavyBody.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sequel Sans Light Body';
+  src:
+    url('/fonts/SequelSans-LightBody.woff2') format('woff2'),
+    url('/fonts/SequelSans-LightBody.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sequel Sans Light Disp';
+  src:
+    url('/fonts/SequelSans-LightDisp.woff2') format('woff2'),
+    url('/fonts/SequelSans-LightDisp.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sequel Sans Light Head';
+  src:
+    url('/fonts/SequelSans-LightHead.woff2') format('woff2'),
+    url('/fonts/SequelSans-LightHead.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sequel Sans Roman Disp';
+  src:
+    url('/fonts/SequelSans-RomanDisp.woff2') format('woff2'),
+    url('/fonts/SequelSans-RomanDisp.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sequel Sans Medium Body';
+  src:
+    url('/fonts/SequelSans-MediumBody.woff2') format('woff2'),
+    url('/fonts/SequelSans-MediumBody.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sequel Sans Roman Head';
+  src:
+    url('/fonts/SequelSans-RomanHead.woff2') format('woff2'),
+    url('/fonts/SequelSans-RomanHead.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sequel Sans Roman Body';
+  src:
+    url('/fonts/SequelSans-RomanBody.woff2') format('woff2'),
+    url('/fonts/SequelSans-RomanBody.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sequel Sans Medium Disp';
+  src:
+    url('/fonts/SequelSans-MediumDisp.woff2') format('woff2'),
+    url('/fonts/SequelSans-MediumDisp.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sequel Sans Medium Head';
+  src:
+    url('/fonts/SequelSans-MediumHead.woff2') format('woff2'),
+    url('/fonts/SequelSans-MediumHead.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sequel Sans Semi Bold Disp';
+  src:
+    url('/fonts/SequelSans-SemiBoldDisp.woff2') format('woff2'),
+    url('/fonts/SequelSans-SemiBoldDisp.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sequel Sans Semi Bold Head';
+  src:
+    url('/fonts/SequelSans-SemiBoldHead.woff2') format('woff2'),
+    url('/fonts/SequelSans-SemiBoldHead.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sequel Sans Semi Bold Body';
+  src:
+    url('/fonts/SequelSans-SemiBoldBody.woff2') format('woff2'),
+    url('/fonts/SequelSans-SemiBoldBody.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+.boxshadow {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08);
+}
+
+@layer {
+  .icon-button {
+    @apply flex h-9 w-9 items-center justify-center rounded-[10px];
+  }
+}
